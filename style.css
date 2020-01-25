@@ -1,0 +1,13 @@
+.cell{
+    border: 2px solid red;
+    height: 140px;
+    width: 140px;
+
+}
+
+.tbl{
+    border: solid 5px black;
+    height: 500px;
+    width: 500px;
+
+}
