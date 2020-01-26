@@ -1,13 +1,36 @@
 .cell{
-    border: 2px solid red;
+    border: 2px solid black;
     height: 140px;
     width: 140px;
 
 }
 
 .tbl{
-    border: solid 5px black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
     height: 500px;
     width: 500px;
 
+}
+
+.X{
+    color: rgb(255, 0, 0);
+    font-size: 98px;
+    /* align-self: center; */
+    /* justify-content: center; */
+    text-align: center;
+    cursor: no-drop;
+}
+.O{
+    color: rgb(0, 0, 0);
+    font-size: 98px;
+    /* align-self: center; */
+    /* justify-content: center; */
+    text-align: center;
+    cursor: no-drop;
+}
+
+.disabled{
+    cursor: no-drop;
 }
